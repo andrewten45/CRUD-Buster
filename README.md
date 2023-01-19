@@ -1,2 +1,2 @@
-# CRUD-IMS
-Inventory Management System with CRUD operations
+# CRUD APP
+Generic Application with CRUD operations
