@@ -1,4 +1,4 @@
-# CRUD APP
+# CRUD-IMS
 MISSION: Implement a robust CRUD Inventory Management System to solve critical business problems associated with inventory management.
 
 OBJECTIVES:
