@@ -1,4 +1,4 @@
-# CRUD-IMS
+# CRUD-Buster: Combat Ready Utility for Data
 MISSION: Implement a robust CRUD Inventory Management System to solve critical business problems associated with inventory management.
 
 OBJECTIVES:
