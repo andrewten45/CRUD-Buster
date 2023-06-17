@@ -8,7 +8,7 @@
 <div class="container">
 
     <?php// This is the title?>
-    <h1>PHP + MySQL CRUD Demo</h1>
+    <h1>CRUD-Buster, made with PHP + MySQL</h1>
     <p>Create, read, update, and delete records below</p>
 
     <?php// This code makes up the basic interface for input according to the DB schema?>
