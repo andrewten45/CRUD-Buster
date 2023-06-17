@@ -19,3 +19,6 @@ The implementation of the CRUD Inventory Management System will provide the nece
 
 ESSENTIAL PRESREQUISITES:
 `Lamp Stack / WampServer`
+
+PREVIEW:
+![image](https://github.com/andrewten45/CRUD-Buster/assets/54324007/cd435f13-59e6-48f7-8e76-6c1deade40c5)
