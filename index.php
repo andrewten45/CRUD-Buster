@@ -11,6 +11,13 @@
     <h1>CRUD-Buster, made with PHP + MySQL</h1>
     <p>Create, read, update, and delete records below</p>
 
+    <?php// This allows for READ functionality?>
+    <table class="table">
+      <tbody>
+        <?php include 'read.php'; ?>
+      </tbody>
+    </table>
+
     <?php// This code makes up the basic interface for input according to the DB schema?>
     <form class="form-inline m-2" action="create.php" method="POST">
         <label for="name">Name:</label>
