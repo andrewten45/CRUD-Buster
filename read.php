@@ -4,9 +4,7 @@
   $result = $conn->query($sql);
   while($row = $result->fetch_assoc()) {
     echo "<tr>";
-    if (isset($_GET['id'])) { // Issues with this line - website functions correctly with db, but shows too much info to the user.
-    // Originally Line 7: if ($row['id'] == $_GET['id']) {
-    // Could try changing $_GET to $_POST?
+    if (isset($_GET['id']) && $row['id'] == $_GET['id']) { // Fixed undefined index warning by checking first if the id parameter exists within url.
       echo '<form class="form-inline m-2" action="update.php" method="POST">';
       echo '<td><input type="text" class="form-control" name="name" value="'.$row['name'].'"></td>';
       echo '<td><input type="number" class="form-control" name="price" value="'.$row['price'].'"></td>';
