@@ -1,6 +1,6 @@
 # CRUD-Buster: Combat Ready Utility for Data
 
-![image](https://github.com/andrewten45/CRUD-Buster/assets/54324007/bc11651c-a37e-490b-bb56-d8a7d294845a)
+![image](https://github.com/andrewten45/CRUD-Buster/assets/54324007/1c5854ac-0b45-435b-b00f-a16c05d94f5f)
 
 
 MISSION: Implement a robust CRUD Inventory Management System to solve critical business problems associated with inventory management.
