@@ -22,4 +22,5 @@ EXECUTION:
 The implementation of the CRUD Inventory Management System will provide the necessary tools and functionalities to meet the objectives. This solution will enable accurate inventory tracking, streamline stock management, facilitate efficient product updates, and optimize inventory operations. By leveraging this system, the organization will enhance its operational effectiveness and maintain optimal inventory levels to support mission success.
 
 ESSENTIAL PRESREQUISITES:
-`Lamp Stack / WampServer`
+`LAMP Stack / WampServer`
+Note that WampServer is a Windows form of LAMP, otherwise functioning identically.
