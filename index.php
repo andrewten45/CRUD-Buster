@@ -10,6 +10,9 @@
     <?php// This is the title?>
     <h1>CRUD-Buster, made with PHP + MySQL</h1>
     <p>Create, read, update, and delete records below</p>
+
+    <?php// This adds column headers
+    // TODO: Replace this with an array to make it easier to read in a new header_generator.php file?>
     <p>Name
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
