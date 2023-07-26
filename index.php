@@ -10,6 +10,14 @@
     <?php// This is the title?>
     <h1>CRUD-Buster, made with PHP + MySQL</h1>
     <p>Create, read, update, and delete records below</p>
+    <p>Name
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;
+    Price
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    Quantity</p>
 
     <?php// This allows for READ functionality?>
     <table class="table">
@@ -28,7 +36,7 @@
         <input type="number" class="form-control m-2" id="quantity" name="quantity">
         <button type="submit" class="btn btn-primary">Add</button>
     </form>
-    
+
 </div>
 </body>
 </html>

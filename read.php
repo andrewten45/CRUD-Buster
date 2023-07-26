@@ -2,6 +2,7 @@
   include '../db.php';
   $sql = "select * from product";
   $result = $conn->query($sql);
+
   while($row = $result->fetch_assoc()) {
     echo "<tr>";
     if (isset($_GET['id']) && $row['id'] == $_GET['id']) { // Fixed undefined index warning by checking first if the id parameter exists within url.
@@ -21,5 +22,6 @@
     echo '<td><a class="btn btn-danger" href="delete.php?id=' . $row['id'] . '" role="button">Delete</a></td>';
     echo "</tr>";
   }
+
   $conn->close();
 ?>
