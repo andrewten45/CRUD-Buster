@@ -12,7 +12,8 @@
     <p>Create, read, update, and delete records below</p>
 
     <?php// This adds column headers
-    // TODO: Replace this with an array to make it easier to read in a new header_generator.php file?>
+    // TODO: Replace this with an array to make it easier to read in a new header_generator.php file
+    // TODO: Make a CSS portion that has labels instead??>
     <p>Name
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
