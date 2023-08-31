@@ -11,20 +11,16 @@
     <h1>CRUD-Buster, made with PHP + MySQL</h1>
     <p>Create, read, update, and delete records below</p>
 
-    <?php// This adds column headers
-    // TODO: Replace this with an array to make it easier to read in a new header_generator.php file
-    // TODO: Make a CSS portion that has labels instead??>
-    <p>Name
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;
-    Price
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;
-    Quantity</p>
-
     <?php// This allows for READ functionality?>
     <table class="table">
+      <?php// This thead section adds labels for each column?>
+      <thead>
+        <tr>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
       <tbody>
         <?php include 'read.php'; ?>
       </tbody>
