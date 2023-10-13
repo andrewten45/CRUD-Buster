@@ -4,6 +4,8 @@
 
 ## Intuitive record application focused on backend functionality
 
-[new description]
+### Description
 In general, applications using CRUD features may lack a functional and intuitive UI. CRUD-Buster aims to solve both of these problems through use of the PHP language and testing.
-Testing results are outputted into the /tests folder
+
+### Tests
+Testing the DB ensures it functions propery when the app is implemented. Results are exported into the /sql-test folder
