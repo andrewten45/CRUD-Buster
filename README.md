@@ -5,7 +5,10 @@
 ## Intuitive record application focused on backend functionality :minidisc:
 
 ### Description
-In general, applications using CRUD features may lack a functional and intuitive UI. CRUD-Buster aims to solve both of these problems through use of the PHP language and testing.
+This is a basic CRUD application that stores records using a server backend. It also has some front-end features like colored buttons that facilitate storing data.
+
+### How to run
+WIP
 
 ### Tests
 Testing the DB ensures it functions propery when the app is implemented. Results are exported into the /sql-test folder
